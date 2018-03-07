@@ -1,0 +1,91 @@
+@charset "UFT-8";
+
+body {
+	background:linear-gradient(to right, #8aa4b5, #0099ff);
+}
+
+section{
+	display:flex;
+	justify-content:center;
+}
+
+i{
+	padding:0.3em;
+	color:#C8C8D1;
+	background-color:rgba(255,255,255,0.075);
+}
+i:hover{
+	background-color:rgba(255,255,255,0.25);
+	transition:all 0.3s ease-in;
+}
+a{
+	color:#C8C8D1;
+	text-decoration:none;
+}
+a:hover{
+	font-weight:bold;
+}
+span{
+	font-weight:bold;
+	font-size:.875rem
+}
+.title{
+	color:rgba(255,255,255,0.65);
+	margin:0 0 0.4em;
+	text-align:center
+;	font-family:'Montserrat', sans-serif;
+	font-size:2.5rem
+}
+.center-text{
+	color:rgba(255,255,255,0.65);
+	text-align:center;font-family:'Montserrat', sans-serif
+}
+.container{
+	height:80vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center
+}
+
+.center-img{
+	display: flex;
+	justify-content: center;
+}
+.avatar{
+	width:9.375em;
+	height:9.375em;
+	margin:3em;
+	padding:0.625em;
+	border-radius:50%;
+	border:solid 1px rgba(255,255,255,0.25);
+	background-color:rgba(255,255,255,0.075);
+}
+.social{
+	margin:0.625em;
+	padding:0
+}
+@media (max-width: 375px){
+	.social{
+		margin:0px;
+		padding:20px 0px;
+}
+	.avatar{
+		margin:1em;
+	}
+}
+
+/* esse footer, adiciona uma pequena linha no topo */
+footer::before{
+	content:''; /*adicona um espaço em branco*/
+	border-top: solid 1px rgba(255,255,255,0.25);
+	width:50px; /*tamanho da linha*/
+	display: block;
+	margin:4em auto 1em; /*cria margin distante do texto*/
+}
+
+.text-rodape{
+	font-family:'SemiBold', sans-serif;
+	color:#C8C8D1;
+	font-size:.75rem;
+	text-align:center;
+}
