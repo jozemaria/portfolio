@@ -36,7 +36,7 @@ p {
 
 .left {
 	position: fixed;
-	background-color: rgba(197,255,85,1);
+	background-color: #2b5876;
 	width: 30%;
 	height: 100vh;
 	display: flex;
@@ -66,6 +66,7 @@ p {
 .info-esquerda {
 	padding: 15px 0 40px 0;
 	line-height: 20px;
+	color: white;
 }
 
 .right {
